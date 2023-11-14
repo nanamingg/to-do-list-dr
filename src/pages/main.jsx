@@ -28,7 +28,7 @@ const Main = () => {
       <CreateTodo todos={todos} getTodos={getTodos} lastTodoId={lastTodoId} />
       <ul className="w-96 mx-auto mt-12 h-[30rem] overflow-y-auto">
         {todos.length === 0
-          ? "비어있을 때"
+          ? "Wen Layer00000000"
           : todos.map((v, i) => {
               return <TodoCard key={i} todo={v} />;
             })}
